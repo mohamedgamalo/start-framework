@@ -1,0 +1,17 @@
+.line::before,
+.line::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 4px;
+  background-color: var(--line-color);
+  color: var(--star-color);
+}
+
+.line::before {
+  left: -60px;
+}
+
+.line::after {
+  right: -60px;
+}
